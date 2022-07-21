@@ -9,4 +9,3 @@ hourInput = parseInt(hourInput);
 var minuteInput = document.getElementById("minute-input");
 var secondsInput = document.getElementById("seconds-input");
 
-

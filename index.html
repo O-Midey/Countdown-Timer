@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,42 +15,42 @@
     <title>Stop Timer</title>
   </head>
   <body>
-    <div>
-      <h2>COUNTDOWN TIMER</h3>
-      <h1 id="timer-display"></h1>
-    </div>
-    <div class="panel">
-      <div class="hours-section">
-        <div class="flex-col-button">
-          <i class="fa-solid fa-caret-up" id="minutes-up"></i>
-          <i class="fa-solid fa-caret-down" id="minutes-down"></i>
-        </div>
-        <input type="text" value="00" id="minutes-input" />
-        <p>HOURS</p>
+    <div class="container">
+      <div class="heading">
+        <h2>COUNTDOWN TIMER</h3>
+        <h1 id="timer-display">00:00:00</h1>
       </div>
-      <div class="minutes-section">
-        <div class="flex-col-button">
-          <i class="fa-solid fa-caret-up" id="minutes-up"></i>
-          <i class="fa-solid fa-caret-down" id="minutes-down"></i>
+      <div class="panel">
+        <div class="hours-section">
+          <div class="flex-col-button">
+            <i class="fa-solid fa-caret-up" id="minutes-up"></i>
+            <i class="fa-solid fa-caret-down" id="minutes-down"></i>
+          </div>
+          <input type="text" value="00" id="minutes-input" />
+          <p>HOURS</p>
         </div>
-        <input type="text" value="00" id="minutes-input" />
-        <p>MINUTES</p>
+        <div class="minutes-section">
+          <div class="flex-col-button">
+            <i class="fa-solid fa-caret-up" id="minutes-up"></i>
+            <i class="fa-solid fa-caret-down" id="minutes-down"></i>
+          </div>
+          <input type="text" value="00" id="minutes-input" />
+          <p>MINUTES</p>
+        </div>
+        <div class="seconds-section">
+          <div class="flex-col-button">
+            <i class="fa-solid fa-caret-up" id="minutes-up"></i>
+            <i class="fa-solid fa-caret-down" id="minutes-down"></i>
+          </div>
+          <input type="text" value="00" id="minutes-input" />
+          <p>SECONDS</p>
+        </div>
       </div>
-      <div class="seconds-section">
-        <div class="flex-col-button">
-          <i class="fa-solid fa-caret-up" id="minutes-up"></i>
-          <i class="fa-solid fa-caret-down" id="minutes-down"></i>
-        </div>
-        <input type="text" value="00" id="minutes-input" />
-        <p>SECONDS</p>
+      <div class="button-section">
+        <button>START</button>
+        <button>RESET</button>
       </div>
     </div>
-    <div class="button-section">
-      <button>START</button>
-      <button>RESET</button>
-    </div>
-
-
 
 
 
