@@ -10,10 +10,3 @@ var minuteInput = document.getElementById("minute-input");
 var secondsInput = document.getElementById("seconds-input");
 
 
-console.log(hourInput.value);
-
-
-// increaseHour.addEventListener("click", function(){
-//     var hourInputValue = hourInput.value;
-//     hourInputValue ++;
-// });
